@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.healthboy.betlightening" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BetLightening-Tips</name>
+    <description>Unlock the secrets to betting success with our expert tips and predictions 🏆</description>
+    <author email="betlighteningtips@gmail.com" href="https://cordova.apache.org">
+        BetLightening Tips
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>

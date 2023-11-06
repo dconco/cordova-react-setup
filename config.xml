@@ -1,11 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.healthboy.betlightening" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>BetLightening-Tips</name>
+<widget id="com.healthboy.betlightening" android-packageName="com.healthboy.betlightening" version="1.0.0" defaultlocale="en" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BetLightening Tips</name>
+    <name short="BetLightening">BetLightening Tips</name>
     <description>Unlock the secrets to betting success with our expert tips and predictions 🏆</description>
     <author email="betlighteningtips@gmail.com" href="https://cordova.apache.org">
         BetLightening Tips
     </author>
+
+    <!-- Links pattern that can be set to: *://*.example.com/* -->
+    <access origin="*"></access>
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="geo:*" />
+    <engine name="android" spec="^1.0.0" />
 </widget>

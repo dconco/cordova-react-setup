@@ -12,6 +12,8 @@
     "author": "BetLightening Tips",
     "license": "ISC",
     "dependencies": {
+        "@ionic/react": "^7.5.3",
+        "@ionic/react-router": "^7.5.3",
         "html-webpack-plugin": "^5.5.3",
         "mini-css-extract-plugin": "^2.7.6",
         "react": "^18.2.0",
